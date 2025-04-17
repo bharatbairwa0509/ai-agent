@@ -1,0 +1,77 @@
+# Git files
+.git
+.gitignore
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Local environment files
+.env
+*.env
+
+# Local dependencies / virtual environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Local data / logs / models (should be mounted as volumes or downloaded inside container)
+models/
+logs/
+tokenizer/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+*.prof
+*.lprof
+
+# Build artifacts
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Local model cache
+test_model_cache/
+
+# Development and test files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Documentation
+docs/
+*.md
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment
+.env.local 
